@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShieldHome Quotes — Homeowners Insurance Standalone HTML</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-display-auto { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-display-home { font-family: 'Fraunces', serif; }
+  </style>
+  <!-- RINGBA DNI & RTB TAG SCRIPT (Replace YOUR_RINGBA_ID with your Ringba Campaign Tag ID) -->
+  <script>
+    window._rgba_tags = window._rgba_tags || [];
+    window._rgba_tags.push({ vertical: "home", market: "US" });
+  </script>
+  <script src="//b-js.ringba.com/YOUR_RINGBA_ID" async></script>
+</head>
+<body>
+<main id="lp-home" class="vertical-page bg-[#FAF8F5] text-stone-900">
+    <!-- Top Reassurance Bar -->
+    <div class="bg-[#1E3A2F] text-amber-100 text-xs py-2 px-4">
+      <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
+        <span class="font-semibold">🏡 Protect Your Home &amp; Family • Custom Dwelling, Storm &amp; Liability Policies</span>
+        <span class="font-bold text-amber-300">Bundle Home + Auto &amp; Save Up To 27% Today</span>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="sticky z-30 bg-[#FAF8F5]/95 backdrop-blur border-b border-stone-200 top-0">
+      <div class="max-w-6xl mx-auto px-4 py-3.5 flex items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-[#1E3A2F] text-amber-400 flex items-center justify-center shadow">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+          </div>
+          <div>
+            <span class="font-display-home font-bold text-xl text-[#1E3A2F]">ShieldHome <span class="text-[#D97706]">Quotes</span></span>
+            <span class="block text-[11px] text-stone-500">US Residential Property Protection Advisory</span>
+          </div>
+        </div>
+
+        <a href="tel:+18885550148" onclick="trackRingbaCall('home_header_cta', '+18885550148')" data-ringba-number="+18885550148" class="flex items-center gap-3 bg-[#D97706] hover:bg-amber-700 text-white px-4 sm:px-5 py-2.5 rounded-2xl font-bold shadow-lg shadow-amber-900/15 transition" target="_blank" rel="noopener noreferrer">
+          <span class="text-lg">📞</span>
+          <div class="text-left leading-tight">
+            <span class="block text-[10px] uppercase tracking-wider text-amber-100">Speak to a Home Specialist</span>
+            <span class="text-sm sm:text-base font-extrabold ringba-phone-display">(888) 555-0148</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Split Hero with Interactive Coverage & Bundling Estimator -->
+    <section class="py-10 sm:py-16 border-b border-stone-200">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-6 space-y-5">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-100 text-amber-900 text-xs font-bold border border-amber-200">
+            <span>🛡️ Rising Home Renewal Rates? Compare 15+ US Insurers</span>
+          </div>
+
+          <h1 class="font-display-home text-3xl sm:text-5xl font-bold text-[#1E3A2F] leading-[1.14]">
+            Complete Homeowners Protection Without Overpaying At Renewal.
+          </h1>
+
+          <p class="text-base text-stone-600 leading-relaxed">
+            Whether you’re closing on a new house or tired of 20%+ rate hikes on your current policy, our licensed US home insurance specialists help you tailor full replacement-cost protection in one 5-minute phone call.
+          </p>
+
+          <!-- Coverage Pillars -->
+          <div class="grid sm:grid-cols-2 gap-3 pt-2">
+            <div class="bg-white p-3.5 rounded-2xl border border-stone-200/80 shadow-sm flex items-start gap-3">
+              <span class="text-xl">🌪️</span>
+              <div>
+                <h3 class="font-bold text-sm text-[#1E3A2F]">Wind, Hail &amp; Storm</h3>
+                <p class="text-xs text-stone-500 mt-0.5">Full roof &amp; exterior structural replacement options.</p>
+              </div>
+            </div>
+            <div class="bg-white p-3.5 rounded-2xl border border-stone-200/80 shadow-sm flex items-start gap-3">
+              <span class="text-xl">🔥</span>
+              <div>
+                <h3 class="font-bold text-sm text-[#1E3A2F]">Fire, Theft &amp; Water</h3>
+                <p class="text-xs text-stone-500 mt-0.5">Dwelling + personal belongings safeguarded 24/7.</p>
+              </div>
+            </div>
+            <div class="bg-white p-3.5 rounded-2xl border border-stone-200/80 shadow-sm flex items-start gap-3">
+              <span class="text-xl">⚖️</span>
+              <div>
+                <h3 class="font-bold text-sm text-[#1E3A2F]">Personal Liability</h3>
+                <p class="text-xs text-stone-500 mt-0.5">Up to $500K–$1M family &amp; guest medical protection.</p>
+              </div>
+            </div>
+            <div class="bg-white p-3.5 rounded-2xl border border-stone-200/80 shadow-sm flex items-start gap-3">
+              <span class="text-xl">🏦</span>
+              <div>
+                <h3 class="font-bold text-sm text-[#1E3A2F]">Escrow Ready</h3>
+                <p class="text-xs text-stone-500 mt-0.5">Direct mortgage lender binder delivery same day.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Interactive Ringba RTB Coverage & Bundle Configurator -->
+        <div class="lg:col-span-6">
+          <div class="bg-white rounded-3xl border border-stone-200 shadow-2xl shadow-stone-900/10 p-6 sm:p-8 space-y-5">
+            <div class="flex items-center justify-between border-b border-stone-100 pb-4">
+              <div>
+                <h2 class="font-display-home text-2xl font-bold text-[#1E3A2F]">Build Your Phone Quote Pass</h2>
+                <p class="text-xs text-stone-500 mt-0.5">Pre-qualifies your property for Ringba specialist routing</p>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold">
+                ● Agents Live
+              </span>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-stone-700 mb-1.5">Property ZIP Code</label>
+                <input id="home-zip" type="text" maxlength="5" placeholder="e.g. 30301" oninput="updateHomeTags()" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-[#1E3A2F] outline-none font-bold text-stone-900">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-stone-700 mb-1.5">Property Type</label>
+                <select id="home-type" onchange="updateHomeTags()" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-[#1E3A2F] outline-none text-sm font-semibold bg-white">
+                  <option value="Single Family Home">Single Family Home</option>
+                  <option value="Townhouse / Condo">Townhouse / Condo</option>
+                  <option value="New Home Purchase">New Home Closing Soon</option>
+                  <option value="Manufactured / Mobile">Manufactured / Mobile</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-stone-700 mb-1.5">Roof Age (Unlocks New-Roof Discount)</label>
+              <div class="grid grid-cols-3 gap-2">
+                <button type="button" onclick="setHomeRoof('0-5 Years')" class="home-roof-btn py-2.5 px-2 rounded-xl border-2 border-[#1E3A2F] bg-[#1E3A2F]/5 text-[#1E3A2F] text-xs font-extrabold">0–5 Years</button>
+                <button type="button" onclick="setHomeRoof('6-15 Years')" class="home-roof-btn py-2.5 px-2 rounded-xl border border-stone-200 text-stone-700 text-xs font-bold">6–15 Years</button>
+                <button type="button" onclick="setHomeRoof('15+ Years')" class="home-roof-btn py-2.5 px-2 rounded-xl border border-stone-200 text-stone-700 text-xs font-bold">15+ Years</button>
+              </div>
+            </div>
+
+            <!-- Auto Bundle Toggle -->
+            <div class="flex items-center justify-between p-4 rounded-2xl bg-amber-50/80 border border-amber-200">
+              <div>
+                <span class="text-sm font-extrabold text-[#1E3A2F]">Include Auto Bundle Discount?</span>
+                <span class="block text-xs text-stone-600">Save an additional 18%–27% when bundling vehicles</span>
+              </div>
+              <label class="relative inline-flex items-center cursor-pointer">
+                <input id="home-bundle" type="checkbox" checked="" onchange="updateHomeTags()" class="sr-only peer">
+                <div class="w-12 h-6 bg-stone-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#1E3A2F]"></div>
+              </label>
+            </div>
+
+            <!-- Direct Ringba Click-to-Call Button -->
+            <a href="tel:+18885550148" onclick="trackRingbaCall('home_configurator_cta', '+18885550148')" class="block w-full text-center py-4 px-6 rounded-2xl bg-[#1E3A2F] hover:bg-[#162b23] text-white shadow-xl transition" target="_blank" rel="noopener noreferrer">
+              <span class="block text-xs uppercase tracking-wider text-amber-300 font-bold">Call Now For Custom Home Quote</span>
+              <span class="block text-2xl font-extrabold mt-0.5">📞 (888) 555-0148</span>
+            </a>
+
+            <p class="text-center text-[11px] text-stone-500">
+              No obligation • Speak to a US licensed property &amp; casualty specialist in ~20 seconds.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Homeowner Testimonials -->
+    <section class="py-12 max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+          <div class="text-amber-500 text-sm mb-2">★★★★★</div>
+          <p class="text-sm text-stone-700 italic">"My previous insurer raised our renewal by $680. One 6-minute call with ShieldHome got us better deductible terms and saved $540/year."</p>
+          <p class="text-xs font-bold text-[#1E3A2F] mt-4">— Patricia &amp; Greg M., Charlotte, NC</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+          <div class="text-amber-500 text-sm mb-2">★★★★★</div>
+          <p class="text-sm text-stone-700 italic">"Needed proof of insurance sent directly to our mortgage lender before closing. The agent emailed the binder while we were still on the phone."</p>
+          <p class="text-xs font-bold text-[#1E3A2F] mt-4">— David K., Denver, CO</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+          <div class="text-amber-500 text-sm mb-2">★★★★★</div>
+          <p class="text-sm text-stone-700 italic">"Bundling our home and two SUVs cut our monthly bills noticeably without having to type our VIN numbers into ten different websites."</p>
+          <p class="text-xs font-bold text-[#1E3A2F] mt-4">— Sandra L., Columbus, OH</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#1E3A2F] text-stone-300 text-xs py-10">
+      <div class="max-w-6xl mx-auto px-4 space-y-3">
+        <div class="flex flex-wrap justify-between items-center gap-3 pb-3 border-b border-emerald-900">
+          <span class="font-display-home font-bold text-white text-base">ShieldHome Quotes</span>
+          <div class="flex gap-4">
+            <a href="#privacy" onclick="showToast('Compliance: Home Privacy Policy')" class="hover:text-white">Privacy Policy</a>
+            <a href="#terms" onclick="showToast('Compliance: Home Terms of Service')" class="hover:text-white">Terms</a>
+            <a href="#licensing" onclick="showToast('Compliance: State Producer Licensing Info')" class="hover:text-white">Licensing Disclosures</a>
+          </div>
+        </div>
+        <p class="text-[11px] text-stone-400 leading-relaxed">
+          ShieldHome Quotes is a free telephone referral service connecting US homeowners with licensed insurance agencies and carriers. Coverage availability, deductibles, and bundle discounts vary by state and property condition. Calls are recorded for quality assurance.
+        </p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
